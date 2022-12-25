@@ -1,2 +1,0 @@
-# DEPUF
-This directory
