@@ -6,4 +6,8 @@ CRPx_y+z.csv indicates the width, the number of booster stages and the number of
 File with "crc" indicates the source data produced by DEPUF cascaded with a cyclic redundancy check (CRC) code as a hash function.
 
 # Source data format:
-I: challenge(input) bit, O: response(output) bit 
+I: challenge(input) bit
+
+O: response(output) bit
+
+Value of challenge/response bit is represented by binary, while "?" indicates uncertain state, which can be either 0 or 1 randomly deteremind by the environment.
